@@ -224,10 +224,10 @@
                 <attribute name="type">object</attribute>
             </xpath>
 
-            <xpath expr="//a[@t-if='record.task_needaction_count.raw_value']" position="attributes">
+            <!-- <xpath expr="//a[@t-if='record.task_needaction_count.raw_value']" position="attributes">
                 <attribute name="name">open_tasks</attribute>
                 <attribute name="type">object</attribute>
-            </xpath>
+            </xpath> -->
         </field>
     </record>
 </odoo>
